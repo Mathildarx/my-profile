@@ -1,0 +1,84 @@
+body{
+	  font-family: courier, monospace;
+	  background-color: white;
+	  color: white;
+
+
+}
+
+h1{
+	  color: white;
+	  font-size: 50px;
+	  font-weight: normal;
+}
+
+h2{
+    	color: #ea97ad;
+    	font-size: 35px;
+    }
+
+p{
+	font-size: 25px;
+	text-align: left;
+	line-height: 1;
+	letter-spacing: 0,8px;
+
+}
+
+div{text-align: center;
+	background: #fcdada;
+	border-top: 2px;
+	border-right: 2px;
+	border-bottom: 2px;
+	border-left: 2px;
+	border-radius: 4px;
+	margin: 10px 20px;
+	width: 1200px;
+	margin-left: 18%;
+	padding: 5px;
+	box-shadow: 2px 2px 3px rgb(0,0,0,0.5);
+
+}
+
+h3{
+	font-size: 35px;
+}
+	
+img{
+	border-radius: 230px;
+}
+
+
+
+a:hover{
+	color:#e8e8e8;
+	background-color: #fca3cc;
+}
+
+.bouton{
+	background-color: #e8e8e8;
+	border-radius: 100px;
+	padding: 5px;
+	color: #fca3cc;
+	font-size: 25px;
+	
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
